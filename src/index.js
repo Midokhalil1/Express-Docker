@@ -6,7 +6,7 @@ const app = express()
 app.use(cors())
 
 app.get('/test', (req, res) => {
-    res.send('Docker API is yayy cool...🐳')
+    res.send('Docker API is cool...🐳')
 })
 
 app.listen(PORT, () =>  {
