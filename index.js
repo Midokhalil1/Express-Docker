@@ -1,4 +1,4 @@
-import { Express } from "express";
+import express from "express";
 import cors from 'cors'
 
 const PORT = 3000
